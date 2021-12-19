@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+body {
+  background-color: #E5E5E5;
+}
+
+.main {
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  font-family: Montserrat, sans-serif;
+  background-color: #ffffff;
+  padding: 5px;
+  flex: 0 1 50%;
+}
+
+@media (max-width: 1200px) {
+  .main {
+    max-width: 970px;
+  }
+}
+@media (max-width: 992px) {
+  .main {
+    max-width: 750px;
+  }
+}
+@media (max-width: 767px) {
+  .main {
+    max-width: none;
+    flex-direction: column;
+  }
+
+  .sideBar {
+    max-width: 370px;
+    margin: 0 auto;
+  }
+
+  .mainContent {
+    margin: 100px auto !important;
+  }
+
+  h1, h2 {
+    text-align: center;
+  }
+}
+h3 {
+  margin: 0 0 10px 0;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.mainContent {
+  margin: 100px 0 0 90px;
+}
+
+.headerContent h1 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0 0 20px 0;
+}
+.headerContent h2 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  margin: 0 0 25px 0;
+}
+.headerContent p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0 0 40px 0;
+}
+
+.projects {
+  margin-bottom: 50px;
+}
+.projects ol {
+  margin: 10px 0 15px 0;
+}
+.projects .boldList {
+  margin: 10px 0 15px 0;
+}
+.projects .normRefAA {
+  color: #595959;
+  margin-left: 10px;
+}
+.projects .bracket {
+  font-weight: bold;
+}
+.projects li.boldList::marker {
+  font-weight: 700;
+}
+
+.workExperience .roga {
+  color: #FB6D3A;
+  font-size: 16px;
+}
+.workExperience h4 {
+  margin: 10px 0;
+}
+.workExperience p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  color: #a8a8a8;
+}
+.workExperience ul {
+  margin: 10px 0 15px 0;
+}
+.workExperience li {
+  color: #595959;
+  line-height: 24px;
+  font-size: 16px;
+}
+.workExperience .education {
+  margin: 45px 0 10px 0;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+}
+.workExperience .univer {
+  color: #FB6D3A;
+}
+
+.sideBar {
+  background-color: #1E2939;
+  padding-top: 40px;
+}
+.sideBar .photo {
+  max-width: 370px;
+  max-height: 354px;
+}
+.sideBar .listBar {
+  margin: 50px 0 0 40px;
+}
+.sideBar h3 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #ffffff;
+}
+.sideBar .contactType {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0 10px 0 0;
+  color: #ffffff;
+}
+.sideBar .contactLink {
+  color: #565F6B;
+}
+.sideBar ul {
+  margin: 10px 0 65px 0;
+  color: #ffffff;
+  list-style: none;
+  padding-left: 0;
+}
+.sideBar li {
+  padding-bottom: 10px;
+}
+.sideBar li::before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-image: url(/image/check.png);
+  background-size: cover;
+  margin-right: 10px;
+}
+.sideBar .techSkillsItems {
+  display: flex;
+  align-items: center;
+}
